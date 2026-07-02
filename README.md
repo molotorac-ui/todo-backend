@@ -14,3 +14,17 @@ This project uses an **in-memory array** to store todo items. Data is not persis
 ## Setup Instructions
 1. Clone this repository.
 2. Install dependencies:
+3. Start the server:4. The API will run on `http://localhost:5000` (or the port set in the `PORT` environment variable).
+
+## API Endpoints
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /api/todos | Get all todos |
+| GET | /api/todos/:id | Get a single todo |
+| POST | /api/todos | Create a new todo |
+| PUT/PATCH | /api/todos/:id | Update a todo |
+| DELETE | /api/todos/:id | Delete a todo |
+
+## Assumptions
+- Single anonymous user, no authentication or login required.
+- Data is stored in memory and is not persisted between server restarts.
