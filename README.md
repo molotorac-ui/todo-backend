@@ -14,8 +14,15 @@ This project uses an **in-memory array** to store todo items. Data is not persis
 ## Setup Instructions
 1. Clone this repository.
 2. Install dependencies:
+
+    npm install
+
 3. Start the server:
+
+    node server.js
+
 4. The API will run on `http://localhost:5000` (or the port set in the `PORT` environment variable).
+
 ## API Endpoints
 | Method | Endpoint | Description |
 |--------|----------|-------------|
